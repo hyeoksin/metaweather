@@ -18,7 +18,7 @@ class WeatherApplication : Application(){
         super.onCreate()
     setupStethoClient()
     setupRetrofit()
-}
+    }
 
     private fun setupStethoClient() {
         Stetho.initializeWithDefaults(this)
