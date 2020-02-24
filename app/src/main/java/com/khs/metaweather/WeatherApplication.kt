@@ -16,8 +16,8 @@ class WeatherApplication : Application(){
 
     override fun onCreate() {
         super.onCreate()
-    setupStethoClient()
-    setupRetrofit()
+        setupStethoClient()
+        setupRetrofit()
     }
 
     private fun setupStethoClient() {
