@@ -49,7 +49,6 @@ class MainRecyclerViewAdapter() : RecyclerView.Adapter<RecyclerView.ViewHolder>(
 
     inner class CustomViewHolder(view: View):RecyclerView.ViewHolder(view) {
 
-
         var cityNameTv:TextView = view.city_name
 
         fun bindItem(position: Int, viewHolder: CustomViewHolder) {
