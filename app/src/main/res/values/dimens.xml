@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cityname">20dp</dimen>
+    <dimen name="day">15dp</dimen>
+    <dimen name="cityMargin">10dp</dimen>
+    <dimen name="stateName">20dp</dimen>
+    <dimen name="tempSize">20dp</dimen>
+    <dimen name="iconWeather">70dp</dimen>
+</resources>
