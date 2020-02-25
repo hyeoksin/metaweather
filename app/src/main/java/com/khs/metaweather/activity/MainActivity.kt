@@ -24,9 +24,7 @@ class MainActivity : AppCompatActivity() {
     var task:MainActivityTask?=null
     var recyclerViewAdapter:MainRecyclerViewAdapter?=null
 
-    companion object {
-        var locationList:ArrayList<MetaWeather>?= arrayListOf()
-    }
+    var locationList:ArrayList<MetaWeather>?= arrayListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

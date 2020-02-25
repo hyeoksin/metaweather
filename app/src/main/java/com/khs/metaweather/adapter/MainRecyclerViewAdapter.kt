@@ -38,6 +38,7 @@ class MainRecyclerViewAdapter() : RecyclerView.Adapter<RecyclerView.ViewHolder>(
     }
 
     override fun getItemCount(): Int {
+        Log.d("DEBUG","getItemCount(): "+ locationList?.size!!)
         return locationList?.size!!
     }
 
